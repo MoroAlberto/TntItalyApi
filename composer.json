@@ -1,0 +1,21 @@
+{
+    "name": "MoroAlberto/tnt_api",
+    "description": "PHP library to communicate with the TNT service",
+    "type": "library",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Alberto Moro",
+            "email": "a.moro@engaged.it"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tnt\\": "src/"
+        }
+    }
+}
