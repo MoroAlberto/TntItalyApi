@@ -1,6 +1,6 @@
 {
     "name": "MoroAlberto/TntItalyApi",
-    "description": "PHP library to communicate with the TNT service",
+    "description": "PHP library to communicate with the TNT Italy service",
     "type": "library",
     "license": "LGPL-2.1",
     "authors": [
