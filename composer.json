@@ -1,5 +1,5 @@
 {
-    "name": "MoroAlberto/tnt_api",
+    "name": "MoroAlberto/TntItalyApi",
     "description": "PHP library to communicate with the TNT service",
     "type": "library",
     "license": "LGPL-2.1",

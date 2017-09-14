@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<shipment>
+    <software>
+        <application>MYRTL</application>
+        <version>1.0</version>
+    </software>
+    <security>
+        <customer>custumer</customer>
+        <user>user</user>
+        <password>password</password>
+        <langid>EN</langid>
+    </security>
+    <consignment action="I">
+        <senderAccId>senderAccId</senderAccId>
+        <consignmentno>1</consignmentno>
+        <consignmenttype>C</consignmenttype>
+        <actualweight>00002000</actualweight>
+        <totalpackages>1</totalpackages>
+        <packagetype>C</packagetype>
+        <division>D</division>
+        <product>A</product>
+        <collectiondate>20170515</collectiondate>
+        <termsofpayment>S</termsofpayment>
+        <systemcode>RL</systemcode>
+        <systemversion>1.0</systemversion>
+        <addresses>
+            <address>
+                <addressType>S</addressType>
+                <addrline1>via mittente</addrline1>
+                <postcode>20017</postcode>
+                <phone1>02</phone1>
+                <phone2>12345678</phone2>
+                <name>My company SRL</name>
+                <country>IT</country>
+                <town>RHO</town>
+                <province>MI</province>
+            </address>
+            <address>
+                <addressType>R</addressType>
+                <addrline1>via destinatario</addrline1>
+                <postcode>20017</postcode>
+                <phone1>348</phone1>
+                <phone2>1234567</phone2>
+                <name>MARIO SPA</name>
+                <country>IT</country>
+                <town>RHO</town>
+                <province>MI</province>
+            </address>
+        </addresses>
+        <collectiontrg>
+            <priopntime>0900</priopntime>
+            <priclotime>1200</priclotime>
+            <secopntime>1200</secopntime>
+            <secclotime>1800</secclotime>
+            <availabilitytime>1000</availabilitytime>
+            <pickupdate>30.05.2017</pickupdate>
+            <pickupdays>1</pickupdays>
+            <pickuptime>1000</pickuptime>
+        </collectiontrg>
+        <dimensions itemaction="I">
+            <itemtype>C</itemtype>
+            <weight>00002000</weight>
+            <quantity>1</quantity>
+        </dimensions>
+    </consignment>
+</shipment>
