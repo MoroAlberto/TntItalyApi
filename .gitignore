@@ -97,6 +97,6 @@ fabric.properties
 /Prove
 .htaccess
 .htpasswd
-/.idea
+.idea/*
 onepieceflow.iml
 config/Config.php
