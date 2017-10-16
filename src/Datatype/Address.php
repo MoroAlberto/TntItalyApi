@@ -95,6 +95,15 @@ class Address extends BaseDatatype
             'maxLength' => '6',
             'enumeration' => 'MYRTL, MYRTLI',
         ),
+        'email' => array(
+            'type' => 'string',
+            'required' => true,
+            'subobject' => false,
+            'comment' => 'MYRTL=national, MYRTLI=i18n',
+            'minLength' => '5',
+            'maxLength' => '6',
+            'enumeration' => 'MYRTL, MYRTLI',
+        ),
         'province' => array(
             'type' => 'string',
             'required' => true,
