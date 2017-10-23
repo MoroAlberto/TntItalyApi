@@ -55,6 +55,11 @@ class Document extends Base
             'required' => true,
             'subobject' => true,
         ),
+        'Action' => array(
+            'type' => 'action',
+            'required' => true,
+            'subobject' => true,
+        ),
 
     );
 
